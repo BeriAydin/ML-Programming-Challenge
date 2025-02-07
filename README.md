@@ -24,17 +24,7 @@ After testing multiple classifiers, **Random Forest with PCA** was selected as t
 - **Standard Scaling**: Applied before PCA.
 - **PCA**: Applied to numerical features to remove redundancy and improve model performance.
 
-### **Classifiers Evaluated**
-| Model                | Accuracy  |
-|----------------------|----------|
-| Random Forest (PCA) | **84.82%** |
-| Decision Tree (PCA) | 77.52% |
-| Logistic Regression (PCA, 10 components) | 58.84% |
-| SVM (PCA, 10 components) | 65.61% |
-| kNN (PCA, 7 components) | 56.66% |
-| Naïve Bayes (No PCA) | 66.21% |
-
-Final Model: **Random Forest with PCA**, achieving an accuracy of **84.82%** on the held-out dataset.
+Final Model: **Random Forest with PCA**, achieving an accuracy of **84.82%** on the true dataset.
 
 ## 🔧 Customization
 If you want to experiment with different models, modify `main.py`:
@@ -47,4 +37,4 @@ classifiers = {
 ```
 
 ## 🎯 Conclusion
-This project successfully applied **machine learning techniques** to classify data and achieve a accuracy of **84.82%**. The best-performing model Random Forest was selected based on **cross-validation scores**.
+This project successfully applied **machine learning techniques** to classify data and achieve a accuracy of **84.82%**. The best-performing model Random Forest was selected based on **cross-validation scores**. The highest score that was achieved for this challange was **85.8%**.
