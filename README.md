@@ -9,12 +9,14 @@ This project is part of the HT24 Machine Learning exam challenge. The task is to
 - **EvaluationGT.csv**: Ground truth labels (released after the exam for self-evaluation).
 
 ## 🏗️ Project Structure
-├── main.py           # Main script for training & evaluation
-├── TrainOnMe.csv     # Training dataset
-├── EvaluateOnMe.csv  # Evaluation dataset
-├── labels.txt        # Predicted labels output (for submission)
-├── README.md         # This document
-
+```
+📂 Project Root
+├── main.py              # Main script for training & evaluation
+├── labels.txt           # Predicted labels output (for submission)
+├── TrainOnMe.csv        # Training dataset
+├── EvaluateOnMe.csv     # Evaluation dataset
+├── README.md            # This document
+```
 
 ## 📊 Model Selection Strategy
 After testing multiple classifiers, **Random Forest with PCA** was selected as the best model based on cross-validation accuracy.
